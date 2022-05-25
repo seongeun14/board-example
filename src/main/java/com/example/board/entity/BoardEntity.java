@@ -10,14 +10,11 @@ import javax.persistence.*;
 public class BoardEntity {
 
     @Id
-    @Column(name="BOARD_SEQ")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer boardSeq;
+    private Integer idx;
 
-    @Column(name="TITLE")
     private String title;
 
-    @Column(name="CONTENT")
     private String content;
 
 }
