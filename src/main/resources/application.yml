@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/board
+    url: jdbc:mysql://172.30.1.5:3306/board
     driver-class-name: org.mariadb.jdbc.Driver
-    username: root
+    username: newuser
     password: 1234
 
   jpa:
